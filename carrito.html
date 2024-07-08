@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda HyperGear</title>
+    <link rel="stylesheet" href="./css/carrito.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__brand">
+            <img src="./images/Logo hypergear.png" alt="">
+        </div>
+        <div class="header__cart">
+            <div class="header__cartFlag">0</div>
+            <img src="./images/cart.svg" class="cart__icon">
+            <div class="cart__dropdown">
+                <div class="header__checkout">
+                    <h2>Carrito de Compras</h2>
+                    <ul class="cart__list">
+                    </ul>
+                    <div class="cart__total">
+                        Total: <span id="cartTotal">$0.00</span>
+                    </div>
+                    <button class="cart__checkout">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <ul class="header__mainNavigation">
+            <li><a href="#">Mouses</a></li>
+            <li><a href="#">Keyboards</a></li>
+            <li><a href="#">Headsets</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="content">
+    <div class="content__outer">
+        <div class="content__inner">
+            <div class="content__sliderWrapper">
+                <div class="content__slider">
+                    <div class="content__sliderItemOuter">
+                        <div class="content__sliderItem">
+                            <div class="content__sliderTitle">
+                                Mouse gaming
+                            </div>
+                            <div class="content__sliderContent">
+                                <div class="content__sliderContentImg">
+                                    <img src="./images/mouse gaming.jpg" alt="Mouse gaming">
+                                </div>
+                                <button class="content__sliderAddToCart">Agregar al carrito</button>
+                                <div class="content__sliderContentSize">
+                                </div>
+                                <div class="content__sliderContentPrice">
+                                    <div class="content__sliderContentPrice">$ 89.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="back-to-home">
+						<a href="./index.html" class="btn-home">
+							<img src="./images/home.svg" class="btn-home-icon" alt="Home">
+						</a>
+					</div>					
+					</div>					
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/carrito.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/esconde.js"></script>
+
+</body>
+</html>
+
